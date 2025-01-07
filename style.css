@@ -1,0 +1,39 @@
+
+body {
+    background-color: whitesmoke;
+    height: 80vh;
+}
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+   
+}
+.container img {
+    height: 500px;
+    width: 350px;
+    border-radius: 50px;
+    border: rgb(236, 236, 111) ridge;
+    box-shadow: 1px 3px 2px 4px;
+}
+.one {
+    height: 70px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 130px;
+    z-index: 1;
+}
+h1: {
+    font-size: 40px;
+    margin: 10px;
+}
+p {
+    font-size: 20px;
+    margin: 20px;
+}
+
+
